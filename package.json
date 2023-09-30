@@ -1,0 +1,41 @@
+{
+  "name": "api_mark1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir build",
+    "dev": "nodemon ./src/index.js --exec babel-node",
+    "start": "node ./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Champagnepagcois/API_MARK1.git"
+  },
+  "keywords": [],
+  "author": "champagnepagcois",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Champagnepagcois/API_MARK1/issues"
+  },
+  "homepage": "https://github.com/Champagnepagcois/API_MARK1#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chalk": "^4.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "firebase-admin": "^9.11.0",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "nodemon": "^2.0.12"
+  }
+}
